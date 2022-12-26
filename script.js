@@ -40,5 +40,9 @@ const calculateScore = () => {
  }
  document.getElementById('score').innerHTML = String(count); 
 }
+document.getElementById('clear').addEventListener('click', ()=>{
+  document.getElementById('userInput').value = ""
+  calculateScore();
+});
 document.getElementById('userInput').addEventListener('keyup', calculateScore);
 document.getElementById('userInput').addEventListener('touchend', calculateScore);

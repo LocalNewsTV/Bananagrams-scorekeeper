@@ -32,7 +32,15 @@ a:hover{
   width: 100%;
   height: 100%;
 }
-
+input {
+  width: 75px;
+  border: 1px solid black;
+  background: slategray;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 40px;
+  font-size: 20px;
+}
 #userInput {
   width: 500px;
   height: 300px;
